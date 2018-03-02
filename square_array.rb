@@ -1,4 +1,8 @@
 def square_array(array)
-   array.each {|i| i * i}
-     
+   numbers =[]
+   array.each do |i|
+     res= i*i
+     numbers.push(res)
+   end
+   return numbers
 end
